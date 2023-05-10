@@ -26,6 +26,9 @@ services:
     environment:
       JUPYTER_ENABLE_LAB: "yes"
       OPENAI_API_KEY: "YOUR API KEY HERE"
+      REDIS_HOST: "redis"
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ""
 
 volumes:
   redis_data:
