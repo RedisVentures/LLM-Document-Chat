@@ -8,7 +8,7 @@ and provide a chatbot-like experience using OpenAI.
 https://user-images.githubusercontent.com/13009163/237002719-26e3118d-77ee-4ded-96f5-6ba801cae66c.mov
 
 
-## Run
+## Run with docker-compose
 
 To run the script, follow these steps:
 
@@ -17,3 +17,8 @@ To run the script, follow these steps:
 3. Run ``docker-compose up`` to start Redis as a vector database and Jupyter.
 4. Navigate to ``http://localhost:8888/notebooks/redis-llm-doc-chat.ipynb`` and run the notebook.
 
+## Run as a standalone Colab notebook
+
+The notebook can be run in Google Colab notebook by navigating to https://colab.research.google.com/github/antonum/LLM-Document-Chat/blob/main/redis-llm-doc-chat.ipynb ot clicking "Open in Colab" icon in the notebook page.
+
+If not suppied in environment variable, the very first code block in the notebook will request the OPENAI_API_KEY in a small dialog.
